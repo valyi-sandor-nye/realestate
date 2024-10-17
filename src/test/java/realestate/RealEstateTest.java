@@ -29,4 +29,29 @@ public class RealEstateTest {
         assertEquals(expected,actual,"makeDiscount miscalculates something");
     }
 
+    @Test
+    void testMakeDiscountShouldDoNothingWithPercent0() {
+        underTest.makeDiscount(0);
+        double actual = underTest.price;
+        double expected = 500000.0;
+        assertEquals(expected,actual,"makeDiscount miscalculates something");
+    }
+
+    @Test
+    void testMakeDiscountShouldDoNothingWithPercent200() {
+        underTest.makeDiscount(200);
+        double actual = underTest.price;
+        double expected = 500000.0;
+        assertEquals(expected,actual,"makeDiscount miscalculates something");
+    }
+    @Test
+    void testMakeDiscountShouldDoNothingWithAFreeProperty() {
+        underTest.price = 0;
+        underTest.makeDiscount(10);
+        double actual = underTest.price;
+        double expected = 0.0;
+        assertEquals(expected,actual,"makeDiscount miscalculates something");
+    }
+
+
 }

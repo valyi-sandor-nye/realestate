@@ -21,7 +21,8 @@ public class RealEstate implements RealEstateInterface, Comparable<RealEstate>{
 
     @Override
     public void makeDiscount(int percent) {
-        price -= percent; // it has an error
+        if (percent>0 && percent<=100)
+        price -= price*percent/100.0;
     }
 
     @Override
