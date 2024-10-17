@@ -4,18 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b956985-0bfe-4e0c-beed-be5a1ab49c68" name="Changes" comment="" />
+    <list default="true" id="6b956985-0bfe-4e0c-beed-be5a1ab49c68" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/realestate/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/realestate/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/realestate/RealEstateApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/realestate/RealEstateApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/realestate/RealEstateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/realestate/RealEstateTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "valyi-sandor-nye"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/valyi-sandor-nye/realestate.git",
+    "accountId": "3a0f459d-26a2-4d97-b97a-53ea50ae4c72"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2nX45DEsoiym8biUgABhoQJHKfa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,11 +49,118 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.InputTest.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.RealEstateApp.executor": "Run",
+    "JUnit.RealEstateTest.demoTestMethod.executor": "Run",
+    "JUnit.RealEstateTest.executor": "Debug",
+    "JUnit.RealEstateTest.testMakeDiscountShouldReturnCorrectValue.executor": "Run",
+    "Maven.realestate [clean].executor": "Run",
+    "Maven.realestate [compile].executor": "Run",
+    "Maven.realestate [package].executor": "Run",
+    "Maven.realestate [test].executor": "Run",
+    "Maven.realestate [validate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/valyis/IdeaProjects/realestate",
+    "onboarding.tips.debug.path": "C:/Users/valyis/IdeaProjects/realestate/src/main/java/realestate/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\valyis\IdeaProjects\realestate" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="realestate" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RealEstateTest.demoTestMethod">
+    <configuration name="InputTestBySimpleRunning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="realestate.InputTestBySimpleRunning" />
+      <module name="realestate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="realestate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="realestate.Main" />
+      <module name="realestate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="realestate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RealEstateApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="realestate.RealEstateApp" />
+      <module name="realestate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="realestate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RealEstateTest.demoTestMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="realestate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="realestate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="realestate" />
+      <option name="MAIN_CLASS_NAME" value="realestate.RealEstateTest" />
+      <option name="METHOD_NAME" value="demoTestMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RealEstateTest.testMakeDiscountShouldReturnCorrectValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="realestate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="realestate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="realestate" />
+      <option name="MAIN_CLASS_NAME" value="realestate.RealEstateTest" />
+      <option name="METHOD_NAME" value="testMakeDiscountShouldReturnCorrectValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RealEstateTest.demoTestMethod" />
+        <item itemvalue="Application.InputTestBySimpleRunning" />
+        <item itemvalue="Application.RealEstateApp" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.RealEstateTest.testMakeDiscountShouldReturnCorrectValue" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
