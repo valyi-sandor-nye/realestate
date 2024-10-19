@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b956985-0bfe-4e0c-beed-be5a1ab49c68" name="Changes" comment="End of the 17th Oct class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/realestate/exceptions/BadInputFormatException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/realestate/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/realestate/Genre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/realestate/InputTestBySimpleRunning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/realestate/InputTestBySimpleRunning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/realestate/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/realestate/Panel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/realestate/RealEstate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/realestate/RealEstate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/realestate/RealEstateAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/realestate/RealEstateAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/realestate/RealEstateApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/realestate/RealEstateApp.java" afterDir="false" />
-    </list>
+    <list default="true" id="6b956985-0bfe-4e0c-beed-be5a1ab49c68" name="Changes" comment="End of the 17th Oct class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="OOrefactor" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,7 +69,7 @@
     "Maven.realestate [validate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "menedek",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/valyis/IdeaProjects/prt",
     "onboarding.tips.debug.path": "C:/Users/valyis/IdeaProjects/realestate/src/main/java/realestate/Main.java",
