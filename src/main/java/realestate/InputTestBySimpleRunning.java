@@ -5,6 +5,7 @@ package realestate;
 public class InputTestBySimpleRunning {
     public static void main(String[] args) {
         RealEstateAgent agentSmith;
+        //noinspection InstantiationOfUtilityClass
         agentSmith = new RealEstateAgent();
         System.out.println(RealEstateAgent.stock);
     }

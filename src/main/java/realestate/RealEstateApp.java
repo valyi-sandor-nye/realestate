@@ -3,8 +3,8 @@ package realestate;
 import java.util.TreeSet;
 
 public class RealEstateApp {
-        RealEstateAgent agent = new RealEstateAgent();
-        TreeSet<RealEstate> actualStock = RealEstateAgent.stock;
+        RealEstateAgent agent = new RealEstateAgent("realestates.txt");
+        TreeSet<RealEstate> actualStock = agent.stock;
         double sum_of_sqm = 0;
         double sum_of_price = 0;
         double minimum_price_till_now = Double.MAX_VALUE;

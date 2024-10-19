@@ -4,10 +4,10 @@ public class Panel extends RealEstate{
     int floor;
     boolean isInsulated;
 
-    public Panel(String s, double v, int i, double v1, Genre newGen, int i1, boolean ins) {
-        super(s,v,i,v1,newGen);
-        floor = i1;
-        isInsulated = ins;
+    public Panel(String city, double price, int sqm, double numberOfRooms, Genre newGen, int floor, boolean insu) {
+        super(city,price,sqm,numberOfRooms,newGen);
+        this.floor = floor;
+        isInsulated = insu;
     }
 
     @Override public String toString() {

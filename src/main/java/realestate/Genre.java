@@ -1,6 +1,6 @@
 package realestate;
 
 public enum Genre {
-    FAMILYHOUSE, CONDOMINIUM,
+    FAMILY_HOUSE, CONDOMINIUM,
     FARM
 }

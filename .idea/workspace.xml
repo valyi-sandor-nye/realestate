@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b956985-0bfe-4e0c-beed-be5a1ab49c68" name="Changes" comment="pom.xml  edited to have JUnit5 and tests are created">
+    <list default="true" id="6b956985-0bfe-4e0c-beed-be5a1ab49c68" name="Changes" comment="End of the 17th Oct class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/realestate/exceptions/BadInputFormatException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/realestate/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/realestate/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/realestate/InputTestBySimpleRunning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/realestate/InputTestBySimpleRunning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/realestate/Panel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/realestate/Panel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/realestate/RealEstate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/realestate/RealEstate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/realestate/RealEstateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/realestate/RealEstateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/realestate/RealEstateAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/realestate/RealEstateAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/realestate/RealEstateApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/realestate/RealEstateApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,24 +23,33 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Exception" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="OOrefactor" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "valyi-sandor-nye"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;valyi-sandor-nye&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/valyi-sandor-nye/realestate.git",
-    "accountId": "3a0f459d-26a2-4d97-b97a-53ea50ae4c72"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/valyi-sandor-nye/realestate.git&quot;,
+    &quot;accountId&quot;: &quot;3a0f459d-26a2-4d97-b97a-53ea50ae4c72&quot;
   }
-}]]></component>
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -66,7 +80,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/valyis/IdeaProjects/realestate",
+    "last_opened_file_path": "C:/Users/valyis/IdeaProjects/prt",
     "onboarding.tips.debug.path": "C:/Users/valyis/IdeaProjects/realestate/src/main/java/realestate/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -161,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InputTestBySimpleRunning" />
-        <item itemvalue="JUnit.RealEstateTest.testMakeDiscountShouldDoNothingWithAFreeProperty" />
+        <item itemvalue="JUnit.RealEstateTest.testMakeDiscountShouldReturnCorrectValue" />
         <item itemvalue="JUnit.RealEstateTest.testMakeDiscountShouldDoNothingWithPercent200" />
         <item itemvalue="JUnit.RealEstateTest.testMakeDiscountShouldDoNothingWithPercent0" />
-        <item itemvalue="JUnit.RealEstateTest.testMakeDiscountShouldReturnCorrectValue" />
+        <item itemvalue="JUnit.RealEstateTest.testMakeDiscountShouldDoNothingWithAFreeProperty" />
+        <item itemvalue="Application.InputTestBySimpleRunning" />
       </list>
     </recent_temporary>
   </component>
@@ -186,11 +200,28 @@
       <option name="project" value="LOCAL" />
       <updated>1729159095823</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="End of the 17th Oct class">
+      <option name="closed" value="true" />
+      <created>1729161325575</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729161325575</updated>
+    </task>
+    <task id="LOCAL-00003" summary="End of the 17th Oct class">
+      <option name="closed" value="true" />
+      <created>1729276956133</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729276956133</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pom.xml  edited to have JUnit5 and tests are created" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom.xml  edited to have JUnit5 and tests are created" />
+    <MESSAGE value="End of the 17th Oct class" />
+    <option name="LAST_COMMIT_MESSAGE" value="End of the 17th Oct class" />
   </component>
 </project>

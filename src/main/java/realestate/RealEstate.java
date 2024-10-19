@@ -1,11 +1,11 @@
 package realestate;
 
 public class RealEstate implements RealEstateInterface, Comparable<RealEstate>{
-    String city;
-    double price; //for a square meter
-    int sqm;
-    double numberOfRooms;
-    Genre genre;
+    protected String city;
+    protected double price; //for a square meter
+    protected int sqm;
+    protected double numberOfRooms;
+    protected Genre genre;
 
     public RealEstate(String city, double price, int sqm,
                       double numberOfRooms, Genre genre) {
@@ -16,13 +16,14 @@ public class RealEstate implements RealEstateInterface, Comparable<RealEstate>{
         this.genre = genre;
     }
 
+
     public RealEstate() {
     }
 
     @Override
     public void makeDiscount(int percent) {
         if (percent>0 && percent<=100)
-        price -= price*percent/100.0;
+           price -= percent;
     }
 
     @Override
@@ -32,6 +33,7 @@ public class RealEstate implements RealEstateInterface, Comparable<RealEstate>{
             case "Budapest": ratio = 1.3; break;
             case "Debrecen": ratio = 1.2; break;
             case "Nyíregyháza": ratio = 1.15; break;
+            default: break;
         }
         return (int) Math.round(sqm * price * ratio);
     }
@@ -65,5 +67,46 @@ public class RealEstate implements RealEstateInterface, Comparable<RealEstate>{
     }
 
 
+
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public int getSqm() {
+        return sqm;
+    }
+
+    public void setSqm(int sqm) {
+        this.sqm = sqm;
+    }
+
+    public double getNumberOfRooms() {
+        return numberOfRooms;
+    }
+
+    public void setNumberOfRooms(double numberOfRooms) {
+        this.numberOfRooms = numberOfRooms;
+    }
+
+    public Genre getGenre() {
+        return genre;
+    }
+
+    public void setGenre(Genre genre) {
+        this.genre = genre;
+    }
 }
 
